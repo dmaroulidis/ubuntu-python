@@ -1,4 +1,4 @@
-FROM dmaroulidis/stack-base:ubuntu
+FROM eclipse/stack-base:ubuntu
 RUN sudo apt-get purge -y python.* &&   sudo apt-get update &&   sudo apt-get install -y --no-install-recommends \
     autoconf \
     automake \
