@@ -1,3 +1,13 @@
+# Copyright (c) 2018 Dimitris Maroulidis
+# This program and the accompanying materials are made
+# available under the terms of the Eclipse Public License 2.0
+# which is available at https://www.eclipse.org/legal/epl-2.0/
+#
+# SPDX-License-Identifier: EPL-2.0
+#
+# Contributors:
+#   Dimitris Maroulidis - rebase image to ubuntu:18.04
+
 FROM dmaroulidis/stack-base:ubuntu
 RUN sudo apt-get purge -y python.* &&   sudo apt-get update &&   sudo apt-get install -y --no-install-recommends \
     autoconf \
